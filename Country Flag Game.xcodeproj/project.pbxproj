@@ -19,6 +19,7 @@
 		5E2541152B4EEEDA004F493F /* Custom Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2541142B4EEED9004F493F /* Custom Button.swift */; };
 		5E2541172B4EF064004F493F /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2541162B4EF064004F493F /* ProgressBar.swift */; };
 		5E2541192B4EF0C9004F493F /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2541182B4EF0C9004F493F /* AnswerRow.swift */; };
+		5E25411B2B4EF4AF004F493F /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E25411A2B4EF4AF004F493F /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		5E2541142B4EEED9004F493F /* Custom Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Button.swift"; sourceTree = "<group>"; };
 		5E2541162B4EF064004F493F /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		5E2541182B4EF0C9004F493F /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		5E25411A2B4EF4AF004F493F /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				5E2540E42B4D9DE8004F493F /* ContentView.swift */,
+				5E25411A2B4EF4AF004F493F /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				5E2541132B4DA5F8004F493F /* Answer.swift in Sources */,
 				5E2541152B4EEEDA004F493F /* Custom Button.swift in Sources */,
 				5E2540E52B4D9DE8004F493F /* ContentView.swift in Sources */,
+				5E25411B2B4EF4AF004F493F /* QuestionView.swift in Sources */,
 				5E2541172B4EF064004F493F /* ProgressBar.swift in Sources */,
 				5E2541192B4EF0C9004F493F /* AnswerRow.swift in Sources */,
 				5E2540E32B4D9DE8004F493F /* Country_Flag_GameApp.swift in Sources */,
