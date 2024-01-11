@@ -20,6 +20,8 @@
 		5E2541172B4EF064004F493F /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2541162B4EF064004F493F /* ProgressBar.swift */; };
 		5E2541192B4EF0C9004F493F /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2541182B4EF0C9004F493F /* AnswerRow.swift */; };
 		5E25411B2B4EF4AF004F493F /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E25411A2B4EF4AF004F493F /* QuestionView.swift */; };
+		5E25411D2B4EF6EF004F493F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E25411C2B4EF6EF004F493F /* Data.swift */; };
+		5E25411F2B4EF71A004F493F /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E25411E2B4EF71A004F493F /* QuizManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		5E2541162B4EF064004F493F /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		5E2541182B4EF0C9004F493F /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		5E25411A2B4EF4AF004F493F /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		5E25411C2B4EF6EF004F493F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5E25411E2B4EF71A004F493F /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,8 @@
 			children = (
 				5E2541102B4DA5AB004F493F /* Question.swift */,
 				5E2541122B4DA5F8004F493F /* Answer.swift */,
+				5E25411C2B4EF6EF004F493F /* Data.swift */,
+				5E25411E2B4EF71A004F493F /* QuizManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -303,9 +309,11 @@
 				5E2541152B4EEEDA004F493F /* Custom Button.swift in Sources */,
 				5E2540E52B4D9DE8004F493F /* ContentView.swift in Sources */,
 				5E25411B2B4EF4AF004F493F /* QuestionView.swift in Sources */,
+				5E25411F2B4EF71A004F493F /* QuizManager.swift in Sources */,
 				5E2541172B4EF064004F493F /* ProgressBar.swift in Sources */,
 				5E2541192B4EF0C9004F493F /* AnswerRow.swift in Sources */,
 				5E2540E32B4D9DE8004F493F /* Country_Flag_GameApp.swift in Sources */,
+				5E25411D2B4EF6EF004F493F /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
