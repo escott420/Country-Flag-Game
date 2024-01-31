@@ -18,7 +18,6 @@ struct Data {
                 Answer(text: "South Africa", isCorrect: false)
               ])
         ,
- 
         Question(correctAnswer:
                 Answer(text: "France", isCorrect: true),
            incorrectAnswers: [
@@ -27,7 +26,6 @@ struct Data {
                 Answer(text: "Germany", isCorrect: false)
            ])
         ,
- 
         Question(correctAnswer:
                 Answer(text: "Germany", isCorrect: true),
            incorrectAnswers: [
