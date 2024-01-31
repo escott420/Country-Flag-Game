@@ -9,10 +9,9 @@ import SwiftUI
 
 struct QuestionView: View {
     @EnvironmentObject var quizManager: QuizManager
-    
     var body: some View {
         if quizManager.playingGame {
-            VStack(spacing: 20) {
+            VStack(spacing: 20, content: {
                 HStack {
                     Text("Country Flag Quiz")
                         .foregroundColor(.yellow)
@@ -28,23 +27,21 @@ struct QuestionView: View {
                     Image(quizManager.country)
                         .resizable()
                         .frame(width: 300, height: 200)
-                        . frame (width: 300, height: 200)
                     ForEach (quizManager.answerChoices) { answer in
                         AnswerRow(answer: answer)
                             .environmentObject(quizManager)
                     }
-                    
                 }
                 Button {
                     quizManager.goToNextQuestion()
                 } label: {
                     CustomButton(text: "Next", background: quizManager.answerSelected ? .yellow : .gray)
                         .disabled(!quizManager.answerSelected)
-                    Spacer()
                 }
-                .padding()
-                .background(.cyan)
-            }
+                Spacer()
+            })
+            .padding()
+            .background(.cyan)
         }
         else {
             VStack(spacing: 20 ){
@@ -64,11 +61,11 @@ struct QuestionView: View {
             .background(.cyan)
         }
     }
-        
-        struct QuestionView_Previews: PreviewProvider {
-            static var previews: some View {
-                QuestionView()
-            }
+    
+    struct QuestionView_Previews: PreviewProvider {
+        static var previews: some View {
+            QuestionView()
         }
     }
+}
 

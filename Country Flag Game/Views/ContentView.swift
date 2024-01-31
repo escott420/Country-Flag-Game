@@ -20,7 +20,6 @@ struct ContentView: View {
                     Text ("Ready to test your skillz?")
                         .foregroundColor (.yellow)
                 }
-                
                 NavigationLink {
                     QuestionView()
                         .environmentObject (quizManager)
